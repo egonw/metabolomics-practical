@@ -48,7 +48,7 @@ write.table(
 )
 ```
 
-## Finding pathways with PathVisio
+## Loading the fold changes into PathVisio
 
 Following the same approach for pathway analysis with other omics data, we can use this data
 to find potentially interesting pathways. First, download the
@@ -71,7 +71,40 @@ recognized:
 
 <img src="./i/Screenshot_20200323_000025.png" width="400px" />
 
+## Finding pathways with PathVisio
 
+The next step is to download the [human pathways](https://www.wikipathways.org/index.php/Download_Pathways)
+and unzip the file locally. Maybe you have them still around from a previous practical. Then downloading
+them again is not needed.
+
+The pathway analysis goes in exactly the same way as for genes, except that we do not
+have p-values. The analysis with `Data`, `Statistics...` has a simpler equation. The list of
+metabolites is similar (or use the equation `[logFC] < -0.2 OR [logFC] > 0.2`):
+
+<img src="./i/Screenshot_20200322_235843.png" width="400px" />
+
+Make sure to open the pathway to see what it looks like. For example, here is the
+experimental data mapped onto [WP692](https://www.wikipathways.org/index.php/Pathway:WP692):
+
+<img src="./i/Screenshot_20200322_235815.png" width="400px" />
+
+1. would you expect to see experimental data for reduced glutathion? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> Maybe that could be expected. What are reasons why we do not have experimental data for it?</span>
+2. if we look at the first few pathways, with the general patterns do we see? <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden"> Metabolites like ATP/ADP and NADP/NADPH show up in many pathways. What is the biological meaning of this?</span>
+
+
+## General thoughts
+
+3. are 73 metabolites enough to do pathway analysis? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> One problem is that many pathways have only few metabolites measured. These pathways may, however, allow you to search in the original experimental data for unidentified metabolites.</span>
+
+Open the TCA cycle pathway in PathVisio and click the `NAD` on the right side, and open the Backpage sidepanel in PathVisio, like this:
+
+<img src="./i/Screenshot_20200323_003521.png" width="400px" />
+
+At the top we can see that the `NAD` node in the pathway is annotated with an HMDB identifier.
+PathVisio used the BridgeDb metabolite identifier mapping database to recognize that the HMDB identifier in the pathway
+and the ChEBI identifier for the experimental data actually are about the same metabolite. Then:
+
+4. thinking about the previous sections of this practical and the lecture, what other things could we do to improve this analysis? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden"> The current analysis.</span>
 
 
 ---
