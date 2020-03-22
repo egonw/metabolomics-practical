@@ -24,7 +24,7 @@ prefix `m_` where information about the metabolites are collected.
 
 The list of files may look like:
 
-<img src="./i/Screenshot_20200322_205413.png" width="200px" />
+<img src="./i/Screenshot_20200322_205413.png" width="400px" />
 
 ## Unexpected similarities
 
