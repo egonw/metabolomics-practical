@@ -12,8 +12,8 @@ can be found in MetaboLights with the identifier
 the section `Biology` the studies are found, with identifiers starting
 with the prefix `MTBLS`.
 
-1. how many human studies found ATP? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden">Fourteen, at the time of writing, with MTBLS87 being the oldest identifier.</span>
-1. in how may other species has this metabolite be found? <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden">The page lists more than 10 other species.</span>
+1. how many human studies found ATP? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> Fourteen, at the time of writing, with MTBLS87 being the oldest identifier.</span>
+2. in how may other species has this metabolite be found? <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden"> The page lists more than 10 other species.</span>
 
 MetaboLights follows the [ISA framework](https://isa-tools.org/),
 where ISA is short for Investigation, Study, and Assay. Following this standard, the information
@@ -42,6 +42,20 @@ The first few lines look like:
 "CHEBI:84981"	"C6H9NO4-2"	"NC(CCCC([O-])=O)C([O-])=O"	"InChI=1S/C6H11NO4/c7-4(6(10)11)2-1-3-5(8)9/h4H,1-3,7H2,(H,8,9)(H,10,11)/p-2"	"2-Aminoadipate"	"162.076"	""	"[M+H]+"	"positive"	"12.2"	"NCBITAXON:http://purl.obolibrary.org/obo/NCBITaxon_9606"	"Homo sapiens"	""	""	"5:very good reliability"	""	""	""	""	""	""	"1400000"	"1400000"	"1400000"	"1400000"	"1400000"	"1200000"	"1400000"	"1300000"	"1100000"	"1500000"	"1500000"	"1500000"
 "CHEBI:17836"	"C7H6NO2-"	"Nc1ccc(cc1)C([O-])=O"	"InChI=1S/C7H7NO2/c8-6-3-1-5(2-4-6)7(9)10/h1-4H,8H2,(H,9,10)/p-1"	"4-Aminobenzoate"	"138.055"	""	"[M+H]+"	"positive"	"7.2"	"NCBITAXON:http://purl.obolibrary.org/obo/NCBITaxon_9606"	"Homo sapiens"	""	""	"5:very good reliability"	""	""	""	""	""	""	"39000"	"39000"	"150000"	"24000"	"84000"	"150000"	"39000"	"76000"	"170000"	"74000"	"110000"	"240000"
 ```
+
+Open this file in [RStudio](https://rstudio.com/):
+
+
+```R
+mtbls88 = read.table(
+  file = "m_mtbls88_metabolite_profiling_mass_spectrometry_v2_maf.tsv",
+  header=TRUE
+)
+```
+
+3. how many rows and columns has this file? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> The file opens as a table with 78 data rows (and one header line) and 33 variables.</span>
+4. why does the 49th data line list two ChEBI identifiers (for C8H15NO3)? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden"> Both metabolites have the same chemical formula, and the experimental data (probably) matches both structures.</span>
+
 
 ---
 
