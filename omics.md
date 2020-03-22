@@ -79,7 +79,35 @@ mtbls88[ order(mtbls88[,"retention_time"]), ]
 6. what is the ChEBI identifier of this compound? <button onclick="toggleAnswer('q6')">Answer</button><span id="q6" style="visibility: hidden"> Well, since it was actually
 three, we have three identifiers: CHEBI:27732, CHEBI:73054, and CHEBI:73061. You can get these easily with this R command: `mtbls88[order(mtbls88[,"retention_time"]),][1:3,"database_identifier"]`</span>
 
+### Principal Component Analysis
 
+Out discussed during the lecture, we do not need to know the metabolites to do a multivariate analysis
+of the data. For example, the following R code can be used to run a principal component analysis (PCA):
+
+```R
+dataColumns = colnames(mtbls88)[22:33]
+data = mtbls88[,dataColumns]
+data.pca = prcomp(data, center = TRUE, scale. = TRUE)
+biplot(data.pca, scale = 0, cex = .7)
+```
+
+7. which metabolite is the most descriptive for blood and RBC samples? <button onclick="toggleAnswer('q7')">Answer</button><span id="q7" style="visibility: hidden"> Metabolite 36, CHEBI:17858, which is gluthatione disulphide.</span>
+8. what can you tell about the differences between blood, RBC, and plasma? <button onclick="toggleAnswer('q8')">Answer</button><span id="q8" style="visibility: hidden"> Plasma has quite different abundances of the metabolites: in the first two principal components, the abundances are almost orthogonal to that of blood, and RBC. (What does that say about the three sample types?)</span>
+
+We can also transpose the matrix, and plot the different samples as points. That allows us to compare the various groups. There
+are [better approaches]() but a quick go at this can be done with:
+
+```R
+data.pca2 = prcomp(t(data), center = TRUE, scale. = TRUE)
+colors = c(
+  "red",  # blood
+  "blue", # plasma
+  "green" # RBC
+)
+plot(data.pca2$x[,1:2], col=colors)
+```
+
+Does the separation of the sample types match your earlier observation?
 
 ---
 
