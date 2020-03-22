@@ -40,9 +40,6 @@ compound determines the spatial orientation of atoms in the molecule.
 
 ## Questions
 
-What are the database identifiers for ChEBI, HMDB, and PubChem for the following
-compounds:
-
 3. does butane have stereoisomers? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden">Yes, the single bonds can be rotated freely, it has various rotamers.</span>
 4. does 2-butene have stereoisomers? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden">Yes, the double bond can be <i>cis</i> and <i>trans</i>.</span>
 5. what are they ChEBI identifiers of the stereoisomers of lysine?<button onclick="toggleAnswer('q5')">Answer</button><span id="q5" style="visibility: hidden">CHEBI:16855 and CHEBI:18019 (CHEBI:25094 is a non-existing entity used to specify a compuond with unknown stereochemistry)</span>
