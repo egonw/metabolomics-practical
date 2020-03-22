@@ -68,6 +68,21 @@ mtbls88 = read.table(
 3. how many rows and columns has this file? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> The file opens as a table with 78 data rows (and one header line) and 33 variables.</span>
 4. why does the 49th data line list two ChEBI identifiers (for C8H15NO3)? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden"> Both metabolites have the same chemical formula, and the experimental data (probably) matches both structures.</span>
 
+The metabolites can be sorted in the order the came of the chromatographic column. This information
+is given in the `retention_time` column. We can sort the table with the following command:
+
+```R
+mtbls88[ order(mtbls88[,"retention_time"]), ]
+```
+
+5. what is the column that came of the column first? <button onclick="toggleAnswer('q5')">Answer</button><span id="q5" style="visibility: hidden"> The metabolite with the lowest retention time. In fact, three metabolites are given for the shortest retention time of 3.8 (units?).</span>
+6. what is the ChEBI identifier of this compound? <button onclick="toggleAnswer('q5')">Answer</button><span id="q5" style="visibility: hidden"> Well, since it was actually
+three, we have three identifiers: CHEBI:27732, CHEBI:73054, and CHEBI:73061. You can get these easily with this R command: `mtbls88[order(mtbls88[,"retention_time"]),][1:3,"database_identifier"]`</span>
+
+
+mtbls88[order(mtbls88[,"retention_time"]),][1:3,"database_identifier"]
+
+
 
 ---
 
