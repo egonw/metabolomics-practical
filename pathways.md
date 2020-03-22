@@ -116,7 +116,8 @@ At the top we can see that the `NAD` node in the pathway is annotated with an HM
 PathVisio used the BridgeDb metabolite identifier mapping database to recognize that the HMDB identifier in the pathway
 and the ChEBI identifier for the experimental data actually are about the same metabolite. Then:
 
-4. thinking about the previous sections of this practical and the lecture, what other things could we do to improve this analysis? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden"> The current analysis.</span>
+4. thinking about the previous sections of this practical and the lecture, what other things could we do to improve this analysis? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden"> The current analysis is limited by the identifier mapping provided by the BridgeDb database, but this does not map structures with different stereochemistry or different charge states. This means that the mapping of experimental data onto the pathways is not always done when it actually should. For example,
+if the pathway drawing has a metabolite that does not specify the stereochemistry, or has the identifier of the charged metabolite, and the experimental data of the neutral metabolite.</span>
 
 
 ---
