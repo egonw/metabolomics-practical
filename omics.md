@@ -77,7 +77,7 @@ mtbls88[ order(mtbls88[,"retention_time"]), ]
 
 5. what is the column that came of the column first? <button onclick="toggleAnswer('q5')">Answer</button><span id="q5" style="visibility: hidden"> The metabolite with the lowest retention time. In fact, three metabolites are given for the shortest retention time of 3.8 (units?).</span>
 6. what is the ChEBI identifier of this compound? <button onclick="toggleAnswer('q6')">Answer</button><span id="q6" style="visibility: hidden"> Well, since it was actually
-three, we have three identifiers: CHEBI:27732, CHEBI:73054, and CHEBI:73061. You can get these easily with this R command: mtbls88[order(mtbls88[,"retention_time"]),][1:3,"database_identifier"]</span>
+three, we have three identifiers: CHEBI:27732, CHEBI:73054, and CHEBI:73061. You can get these easily with this R command: `mtbls88[order(mtbls88[,"retention_time"]),][1:3,"database_identifier"]`</span>
 
 
 
