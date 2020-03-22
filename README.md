@@ -8,7 +8,10 @@ Go to [https://egonw.github.io/metabolomics-practical//](https://egonw.github.io
 
 ---
 
-* [Introduction](intro.md)
+* [Metabolite Databases](databases.md)
+* [Identification](identification.md)
+* [Metabolomics](omics.md)
+* [Pathway Analysis](pathways.md)
 
 ---
 
