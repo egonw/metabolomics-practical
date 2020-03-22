@@ -18,6 +18,19 @@ plasmaColumns = c(
 )
 ```
 
+Using these two groups, we can calculate log fold changes (logFC) with:
+
+```R
+logFC = log2(
+  apply(mtbls88[,rbcColumns], 1, function(x) sum(x)) /
+  apply(mtbls88[,plasmaColumns], 1, function(x) sum(x))
+)
+hist(logFC, breaks = 50, col="gold")
+```
+
+The `hist()` command shows a histogram of of the fold changes.
+
+
 
 ---
 
