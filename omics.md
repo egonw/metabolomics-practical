@@ -75,7 +75,7 @@ is given in the `retention_time` column. We can sort the table with the followin
 mtbls88[ order(mtbls88[,"retention_time"]), ]
 ```
 
-5. what is the column that came of the column first? <button onclick="toggleAnswer('q5')">Answer</button><span id="q5" style="visibility: hidden"> The metabolite with the lowest retention time. In fact, three metabolites are given for the shortest retention time of 3.8 (units?).</span>
+5. what is the compound that came of the column first? <button onclick="toggleAnswer('q5')">Answer</button><span id="q5" style="visibility: hidden"> The metabolite with the lowest retention time. In fact, three metabolites are given for the shortest retention time of 3.8 (units?).</span>
 6. what is the ChEBI identifier of this compound? <button onclick="toggleAnswer('q6')">Answer</button><span id="q6" style="visibility: hidden"> Well, since it was actually
 three, we have three identifiers: CHEBI:27732, CHEBI:73054, and CHEBI:73061. You can get these easily with this R command: `mtbls88[order(mtbls88[,"retention_time"]),][1:3,"database_identifier"]`</span>
 
@@ -95,7 +95,7 @@ biplot(data.pca, scale = 0, cex = .7)
 8. what can you tell about the differences between blood, RBC, and plasma? <button onclick="toggleAnswer('q8')">Answer</button><span id="q8" style="visibility: hidden"> Plasma has quite different abundances of the metabolites: in the first two principal components, the abundances are almost orthogonal to that of blood, and RBC. (What does that say about the three sample types?)</span>
 
 We can also transpose the matrix, and plot the different samples as points. That allows us to compare the various groups. There
-are [better approaches]() but a quick go at this can be done with:
+are [better approaches](https://www.r-bloggers.com/computing-and-visualizing-pca-in-r/) but a quick go at this can be done with:
 
 ```R
 data.pca2 = prcomp(t(data), center = TRUE, scale. = TRUE)
@@ -108,6 +108,7 @@ plot(data.pca2$x[,1:2], col=colors)
 ```
 
 Does the separation of the sample types match your earlier observation?
+
 
 ---
 
