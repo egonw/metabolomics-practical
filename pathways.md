@@ -2,6 +2,18 @@
 
 [prev](./omics.md) | [toc](./README.md)
 
+<script>
+  function toggleAnswer(id) {
+  var answer = document.getElementById(id);
+  if (answer.style.visibility === "hidden" ||
+      answer.style.visibility === "none") {
+    answer.style.visibility = "visible";
+  } else {
+    answer.style.visibility = "hidden";
+  }
+}
+</script>
+
 Continuing from the data set we looked at in the [previous section](./omics.md), we first have
 to define the two sitations we want to compare. Otherwise, we cannot saw which pathways
 are changed when comparing the two situations. Let's compare the read bloos cell samples
