@@ -2,6 +2,18 @@
 
 [prev](./identification.md) | [toc](./README.md) | [next](pathways.md)
 
+<script>
+  function toggleAnswer(id) {
+  var answer = document.getElementById(id);
+  if (answer.style.visibility === "hidden" ||
+      answer.style.visibility === "none") {
+    answer.style.visibility = "visible";
+  } else {
+    answer.style.visibility = "hidden";
+  }
+}
+</script>
+
 
 [MetaboLights](https://www.ebi.ac.uk/metabolights/) is a database
 for metabolomics data hosted at the European Bioinformatics Institute.
