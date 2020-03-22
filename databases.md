@@ -66,6 +66,16 @@ also have entries for compounds with a specific isotope. Of course, with differe
 
 7. what are the ChEBI identifiers water and heavy water? <button onclick="toggleAnswer('q7')">Answer</button><span id="q7" style="visibility: hidden">CHEBI:15377 and CHEBI:33813</span>
 
+# Spectral databases
+
+There are many databases that have spectra for small compounds, two of them are:
+
+* [MassBank Europe](https://massbank.eu/MassBank/) (for mass spectra)
+* [NMRShiftDb](https://nmrshiftdb.nmr.uni-koeln.de/) (for NMR spectra)
+
+8. how many peaks does the <sup>1</sup>H NMR spectrum of isoproanol have? <button onclick="toggleAnswer('q8')">Answer</button><span id="q8" style="visibility: hidden">Two. The hydroxyl proton is not visible in polar solvents, so we only see peaks at 4.04 ppm and 1.22 ppm.</span>
+9. at what m/z value does glycine the highest peak? <button onclick="toggleAnswer('q9')">Answer</button><span id="q9" style="visibility: hidden">That actually depends on the method used. The [M+h]+ peak is around 76, while the [M-H]- peak is around 74. Why do we not measure the [M] peak?</span>
+
 
 ---
 
