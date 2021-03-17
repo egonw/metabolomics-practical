@@ -14,7 +14,7 @@
 }
 </script>
 
-The key databases are the folling
+The key databases are the following
 
 * [Human Metabolomics Database](http://hmdb.ca) (HMDB)
 * [Chemical Entities of Biological Interest](https://www.ebi.ac.uk/chebi/) (ChEBI)
