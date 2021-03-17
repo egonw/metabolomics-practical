@@ -14,7 +14,7 @@
 }
 </script>
 
-## Mass spectromery
+## Mass spectrometry
 
 [Mass spectrometry](https://en.wikipedia.org/wiki/Mass_spectrometry) is an analytical
 methods that uses the [mass-to-charge ratio](https://en.wikipedia.org/wiki/Mass_spectrometry)
