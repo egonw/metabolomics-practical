@@ -14,13 +14,14 @@
 }
 </script>
 
-The key databases are the following
+The key metabolite databases are the following list:
 
-* [Human Metabolomics Database](http://hmdb.ca) (HMDB)
-* [Chemical Entities of Biological Interest](https://www.ebi.ac.uk/chebi/) (ChEBI)
-* [LIPID MAPS](https://lipidmaps.org/)
+* [Human Metabolomics Database](http://hmdb.ca) (HMDB): focuses on human metabolites
+* [Chemical Entities of Biological Interest](https://www.ebi.ac.uk/chebi/) (ChEBI): focuses on accurate description of the chemistry
+* [LIPID MAPS](https://lipidmaps.org/): focuses on lipids in any species
 
-More general databases include the following two:
+More general databases include the following two, but because also human samples contain non-human metabolites, they are of relevance.
+They both have a chemistry focus but link out to many useful databases:
 
 * [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
 * [ChemSpider](https://www.chemspider.com/)
