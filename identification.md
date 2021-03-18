@@ -44,7 +44,7 @@ chemical formula, we do not know how the atoms are bound to each other. That is,
 do not know what the correct stereoisomer is. In fact, we do not even know what the
 correct constitutional isomer is.
 
-3. how many compound entries does ChEBI return if you search for the chemical formular C6H14N2O2? (use the advanced search functionality) <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> ChEBI lists 30116 entries with this chemical formula (at the time of writing)</span>
+3. how many compound entries does ChEBI return if you search for the chemical formula C6H14N2O2? (use the advanced search functionality) <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> ChEBI lists 30116 entries with this chemical formula (at the time of writing)</span>
 
 
 
