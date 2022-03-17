@@ -54,4 +54,4 @@ correct constitutional isomer is.
 
 [prev](./databases.md) | [toc](./README.md) | [next](omics.md)
 
-Copyright 2020 (C) Egon Willighagen - CC-BY Int. 4.0
+Copyright 2020-2022 (C) Egon Willighagen - CC-BY Int. 4.0
