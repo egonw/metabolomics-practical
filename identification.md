@@ -29,7 +29,7 @@ it is not easy to identify a compound.
 
 The monoisotopic mass is the mass of a compound with all atoms having a single,
 major isotopic mass for each element. For example, the monoisotopic mass of
-hydroxyurea is 76.05474.
+hydroxyurea is 76.02728.
 
 2. how many compound in ChEBI have this monoisotopic mass? (use the advanced search functionality) <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden"> Two: CHEBI:38662 and CHEBI:44423</span>
 
