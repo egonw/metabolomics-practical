@@ -31,7 +31,7 @@ They both have a chemistry focus but link out to many useful databases:
 What are the database identifiers for ChEBI, HMDB, and PubChem for the following
 compounds:
 
-1. glycine found in human protein? <button onclick="toggleAnswer('q1')"> Answer</button><span id="q1" style="visibility: hidden"> CHEBI:15428, HMDB0000123, 750</span>
+1. glycine found in human protein? <button onclick="toggleAnswer('q1')"> Answer</button><span id="q1" style="visibility: hidden"> <a href="https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15428">CHEBI:15428</a>, <a href="https://hmdb.ca/metabolites/HMDB0000123">HMDB0000123</a>, <a href="https://pubchem.ncbi.nlm.nih.gov/compound/750">750</a></span>
 2. paracetamol? <button onclick="toggleAnswer('q2')"> Answer</button><span id="q2" style="visibility: hidden"> CHEBI:46195, HMDB0001859, 1983</span>
 
 # Stereoisomers
