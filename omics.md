@@ -25,7 +25,7 @@ the section `Biology` the studies are found, with identifiers starting
 with the prefix `MTBLS`.
 
 1. how many human studies found ATP? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> Fourteen, at the time of writing, with MTBLS87 being the oldest identifier.</span>
-2. in how may other species has this metabolite be found? <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden"> The page lists more than 10 other species.</span>
+2. in how may other species has this metabolite be found? <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden"> The page lists more than ten other species.</span>
 
 MetaboLights follows the [ISA framework](https://isa-tools.org/),
 where ISA is short for Investigation, Study, and Assay. Following this standard, the information
@@ -66,7 +66,7 @@ mtbls88 = read.table(
 ```
 
 3. how many rows and columns has this file? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> The file opens as a table with 78 data rows (and one header line) and 33 variables.</span>
-4. why does the 49th data line list two ChEBI identifiers (for C8H15NO3)? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden"> Both metabolites have the same chemical formula, and the experimental data (probably) matches both structures.</span>
+4. why does the 49th data line list two ChEBI identifiers (for C₈H₁₅NO₃)? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden"> Both metabolites have the same chemical formula, and the experimental data (probably) matches both structures.</span>
 
 The metabolites can be sorted in the order the came of the chromatographic column. This information
 is given in the `retention_time` column. We can sort the table with the following command:
