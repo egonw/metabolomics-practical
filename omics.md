@@ -55,7 +55,7 @@ The first few lines look like:
 "CHEBI:17836"	"C7H6NO2-"	"Nc1ccc(cc1)C([O-])=O"	"InChI=1S/C7H7NO2/c8-6-3-1-5(2-4-6)7(9)10/h1-4H,8H2,(H,9,10)/p-1"	"4-Aminobenzoate"	"138.055"	""	"[M+H]+"	"positive"	"7.2"	"NCBITAXON:http://purl.obolibrary.org/obo/NCBITaxon_9606"	"Homo sapiens"	""	""	"5:very good reliability"	""	""	""	""	""	""	"39000"	"39000"	"150000"	"24000"	"84000"	"150000"	"39000"	"76000"	"170000"	"74000"	"110000"	"240000"
 ```
 
-Open this file in [RStudio](https://rstudio.com/):
+Open this file in [RStudio Desktop](https://posit.co/download/rstudio-desktop/):
 
 
 ```R
