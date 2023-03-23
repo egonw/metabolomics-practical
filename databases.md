@@ -28,6 +28,10 @@ They both have a chemistry focus but link out to many useful databases:
 * [ChemSpider](https://www.chemspider.com/): >100 millsion structures, and like PubChem, but by the British [RSC](https://www.rsc.org/)
 * [Wikidata](https://scholia.toolforge.org/chemical/): 1.3 million structures; a machine-readable sister of Wikipedia (via Scholia interface)
 
+During this practical you will use another biological database, [WikiPathways](https://www.wikipathways.org/),
+which describes many of the biological processes metabolites are involved in. These pathways
+are used in pathways analysis, which you will do at the end of this practical.
+
 ## Identifier structure
 
 Different databases use different structure of the identifier. PubChem, ChemSpider use integers. This has the disadvantage that
