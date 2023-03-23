@@ -16,7 +16,7 @@
 
 Continuing from the data set we looked at in the [previous section](./omics.md), we first have
 to define the two sitations we want to compare. Otherwise, we cannot saw which pathways
-are changed when comparing the two situations. Let's compare the read bloos cell samples
+are changed when comparing the two situations. Let's compare the read blood cell samples
 with plasma:
 
 ```R
