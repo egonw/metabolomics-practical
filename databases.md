@@ -19,12 +19,14 @@ The key metabolite databases are the following list:
 * [Human Metabolomics Database](http://hmdb.ca) (HMDB): focuses on human metabolites
 * [Chemical Entities of Biological Interest](https://www.ebi.ac.uk/chebi/) (ChEBI): focuses on accurate description of the chemistry
 * [LIPID MAPS](https://lipidmaps.org/): focuses on lipids in any species
+* [LOTUS](https://lotus.naturalproducts.net/): focuses on natural products
 
 More general databases include the following two, but because also human samples contain non-human metabolites, they are of relevance.
 They both have a chemistry focus but link out to many useful databases:
 
-* [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
-* [ChemSpider](https://www.chemspider.com/)
+* [PubChem](https://pubchem.ncbi.nlm.nih.gov/): [114 million](https://pubchem.ncbi.nlm.nih.gov/docs/statistics) chemical structures, by the American [NCBI](https://www.ncbi.nlm.nih.gov/)
+* [ChemSpider](https://www.chemspider.com/): >100 millsion structures, and like PubChem, but by the British [RSC](https://www.rsc.org/)
+* [Wikidata](https://scholia.toolforge.org/chemical/): 1.3 million structures; a machine-readable sister of Wikipedia (via Scholia interface)
 
 ## Questions
 
