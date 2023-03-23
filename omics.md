@@ -114,4 +114,4 @@ Does the separation of the sample types match your earlier observation?
 
 [prev](./identification.md) | [toc](./README.md) | [next](pathways.md)
 
-Copyright 2020-2022 (C) Egon Willighagen - CC-BY Int. 4.0
+Copyright 2020-2023 (C) Egon Willighagen - CC-BY Int. 4.0
