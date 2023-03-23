@@ -44,8 +44,9 @@ The `hist()` command shows a histogram of of the fold changes:
 
 <img src="./i/Screenshot_20200323_000103.png" width="400px" />
 
-We are going to use this data in [PathVisio](https://pathvisio.github.io/) and need to export it
-as a TSV file first. We create a new data matrix, and leave out a few rows:
+We are going to use this data in [PathVisio](https://pathvisio.org/) (which you may need to
+[install first](https://pathvisio.org/downloads))
+and need to export it as a TSV file first. We create a new data matrix, and leave out a few rows:
 
 ```R
 logFCdata = cbind(
