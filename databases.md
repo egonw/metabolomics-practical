@@ -84,7 +84,7 @@ There are many databases that have spectra for small compounds, two of them are:
 * [NMRShiftDb](https://nmrshiftdb.nmr.uni-koeln.de/) (for NMR spectra)
 
 8. how many peaks does the <sup>1</sup>H NMR spectrum of isopropanol have? <button onclick="toggleAnswer('q8')">Answer</button><span id="q8" style="visibility: hidden"> Two. The hydroxyl proton is not visible in polar solvents, so we only see peaks at 4.04 ppm and 1.22 ppm.</span>
-9. at what m/z value does glycine the highest peak? <button onclick="toggleAnswer('q9')">Answer</button><span id="q9" style="visibility: hidden"> That actually depends on the method used. The [M+h]+ peak is around 76, while the [M-H]- peak is around 74. Why do we not measure the [M] peak?</span>
+9. at what m/z value does glycine the highest peak? <button onclick="toggleAnswer('q9')">Answer</button><span id="q9" style="visibility: hidden"> That actually depends on the method used. The [M+H]+ peak is around 76, while the [M-H]- peak is around 74. Why do we not measure the [M] peak?</span>
 
 
 ---
