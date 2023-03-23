@@ -23,7 +23,7 @@ the compound breaks down in smaller fragments, resulting in multiple peaks. The 
 of the fragments or compound specific. But even then, with just a mass spectrum
 it is not easy to identify a compound.
 
-1. why will we not see lysine (C6H14N2O2) in a mass spectrum? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> Because it is not charged. However, we can see its protonated and deprotoned counterparts.</span>
+1. why will we not see lysine (C₆H₁₄N₂O₂) in a mass spectrum? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> Because it is not charged. However, we can see its protonated and deprotoned counterparts.</span>
 
 ### Monoisotopic masses
 
@@ -38,13 +38,13 @@ increases the number of search hits. Try searching for the range 76.0 to 76.5.
 
 ### Molecular formula
 
-Lysine has the molecular formula C6H14N2O2. If the mass spectrum gives us a [M+H]+ peak
-matching it molecular formula C6H15N2O2+ then it could be lysine. But with only the
+Lysine has the molecular formula C₆H₁₄N₂O₂. If the mass spectrum gives us a [M+H]+ peak
+matching it molecular formula C₆H₁₅N₂O₂+ then it could be lysine. But with only the
 chemical formula, we do not know how the atoms are bound to each other. That is, we
 do not know what the correct stereoisomer is. In fact, we do not even know what the
 correct constitutional isomer is.
 
-3. how many compound entries does ChEBI return if you search for the chemical formula C6H14N2O2? (use the advanced search functionality) <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> ChEBI lists 30116 entries with this chemical formula (at the time of writing)</span>
+3. how many compound entries does ChEBI return if you search for the chemical formula C₆H₁₄N₂O₂? (use the advanced search functionality) <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> ChEBI lists 30116 entries with this chemical formula (at the time of writing)</span>
 
 
 
