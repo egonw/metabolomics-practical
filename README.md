@@ -17,4 +17,4 @@ Go to [https://egonw.github.io/metabolomics-practical/](https://egonw.github.io/
 
 [toc](./README.md) | [next](databases.md)
 
-Copyright 2020-2023 (C) Egon Willighagen - CC-BY Int. 4.0
+Copyright 2020-2023 (C) Egon Willighagen (Dept of Bioinformatics - [BiGCaT](https://www.bigcat.unimaas.nl/)) - CC-BY Int. 4.0
