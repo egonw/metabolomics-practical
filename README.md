@@ -4,7 +4,8 @@
 
 Material for the **Metabolomics Practical**, 23 March 2023.
 
-Go to [https://egonw.github.io/metabolomics-practical/](https://egonw.github.io/metabolomics-practical/)
+The online version is available at [https://egonw.github.io/metabolomics-practical/](https://egonw.github.io/metabolomics-practical/) and the source code repository is
+available at [https://github.com/egonw/metabolomics-practical](https://github.com/egonw/metabolomics-practical).
 
 ---
 
