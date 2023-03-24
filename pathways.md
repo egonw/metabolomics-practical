@@ -96,6 +96,11 @@ metabolites is similar (or use the equation `[logFC] < -0.2 OR [logFC] > 0.2`):
 
 <img src="./i/Screenshot_20200322_235843.png" width="400px" />
 
+After calculating the enrichment, make sure pathways have non-zero values in the
+`positives` and `measured` columnd. The second is the number of metabolites in this
+pathway for which the experimental data has fold changes. The `positives` is
+the number of measured metabolites that meet the expression.
+
 Make sure to open the pathway to see what it looks like. For example, here is the
 experimental data mapped onto [WP692](https://www.wikipathways.org/index.php/Pathway:WP692):
 
