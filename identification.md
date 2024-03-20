@@ -50,7 +50,7 @@ correct constitutional isomer is.
 
 Given a chemical formula, say C₂H₆O, you can figure out how many chemical structures have that formula.
 
-4. how many unique chemical structures have the C₂H₆O? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> two: ethanol and methoxymethane</span>
+4. how many unique chemical structures have the C₂H₆O? <button onclick="toggleAnswer('q4')">Answer</button><span id="q4" style="visibility: hidden"> two: ethanol and methoxymethane</span>
 
 But this number goes up quickly. Toluene has many other chemical structures with the same
 chemical formula. A tool called [Surge](https://github.com/StructureGenerator/surge) can efficiently
@@ -60,7 +60,7 @@ Not part of this practical, but if you try Surge, use the `-S` option to output 
 you can render as 2D structures with [CDK Depict](https://www.simolecule.com/cdkdepict/depict.html)
 for up to 500 SMILES strings in one go.
 
-5. Can you draw all 14 chemical structures with the chemical formula C₅H₁₂O? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> the full list of SMILES is: <br />
+5. Can you draw all 14 chemical structures with the chemical formula C₅H₁₂O? <button onclick="toggleAnswer('q5')">Answer</button><span id="q5" style="visibility: hidden"> the full list of SMILES is: <br />
 CC(OC)(C)C <br />
 CC(CC)(O)C <br />
 CC(CO)(C)C <br />
@@ -83,4 +83,4 @@ CCCOCC <br />
 
 [prev](./databases.md) | [toc](./README.md) | [next](omics.md)
 
-Copyright 2020-2023 (C) Egon Willighagen - CC-BY Int. 4.0
+Copyright 2020-2024 (C) Egon Willighagen - CC-BY Int. 4.0
