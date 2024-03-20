@@ -46,7 +46,36 @@ correct constitutional isomer is.
 
 3. how many compound entries does ChEBI return if you search for the chemical formula C₆H₁₄N₂O₂? (use the advanced search functionality) <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> ChEBI lists 30116 entries with this chemical formula (at the time of writing)</span>
 
+### A chemical structure generator
 
+Given a chemical formula, say C₂H₆O, you can figure out how many chemical structures have that formula.
+
+4. how many unique chemical structures have the C₂H₆O? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> two: ethanol and methoxymethane</span>
+
+But this number goes up quickly. Toluene has many other chemical structures with the same
+chemical formula. A tool called [Surge](https://github.com/StructureGenerator/surge) can efficiently
+enumerate them. Not all structures it generates are chemically stable, but many are. PubChem gives
+[you some idea](https://pubchem.ncbi.nlm.nih.gov/#query=C7H8), but this includes isotopic variants.
+Not part of this practical, but if you try Surge, use the `-S` option to output SMILES, which
+you can render as 2D structures with [CDK Depict](https://www.simolecule.com/cdkdepict/depict.html)
+for up to 500 SMILES strings in one go.
+
+5. Can you draw all 14 chemical structures with the chemical formula C₅H₁₂O? <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> the full list of SMILES is: <br />
+CC(OC)(C)C <br />
+CC(CC)(O)C <br />
+CC(CO)(C)C <br />
+CCOC(C)C <br />
+OCCC(C)C <br />
+CCCC(O)C <br />
+COCC(C)C <br />
+CC(C)C(O)C <br />
+CC(CC)OC <br />
+OC(CC)CC <br />
+CC(CC)CO <br />
+CCCCCO <br />
+COCCCC <br />
+CCCOCC <br />
+</span>
 
 
 
