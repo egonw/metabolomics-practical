@@ -12,6 +12,8 @@ This practical is supported by the following software:
 - [RStudio](https://posit.co/downloads/)
 * [PathVisio](https://pathvisio.org/downloads)
 
+You may also prefer to download the [metabolite identifier database](https://bridgedb.github.io/data/gene_database/) (>2 GB in size) before the practical.
+
 ## Table of Contents
 
 ---
