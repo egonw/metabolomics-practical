@@ -20,11 +20,11 @@ are changed when comparing the two situations. Let's compare the read blood cell
 with plasma:
 
 ```R
-rbcColumns = c(
+rbcColumns <- c(
   "Person4_RBC1_POS", "Person4_RBC2_POS",
   "Person4_RBC3_POS", "Person4_RBC4_POS"
 )
-plasmaColumns = c(
+plasmaColumns <- c(
   "Person4_Plasma1_POS", "Person4_Plasma2_POS",
   "Person4_Plasma3_POS", "Person4_Plasma4_POS"
 )
@@ -33,7 +33,7 @@ plasmaColumns = c(
 Using these two groups, we can calculate log fold changes (logFC) with:
 
 ```R
-logFC = log2(
+logFC <- log2(
   apply(mtbls88[,rbcColumns], 1, function(x) sum(x)) /
   apply(mtbls88[,plasmaColumns], 1, function(x) sum(x))
 )
@@ -49,7 +49,7 @@ We are going to use this data in [PathVisio](https://pathvisio.org/) (which you 
 and need to export it as a TSV file first. We create a new data matrix, and leave out a few rows:
 
 ```R
-logFCdata = cbind(
+logFCdata <- cbind(
     as.character(mtbls88[,"database_identifier"]),
     logFC
   )[-c(27,47,49,75,77),]
