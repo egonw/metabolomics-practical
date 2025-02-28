@@ -102,7 +102,7 @@ pathway for which the experimental data has fold changes. The `positives` is
 the number of measured metabolites that meet the expression.
 
 Make sure to open the pathway to see what it looks like. For example, here is the
-experimental data mapped onto [WP692](https://www.wikipathways.org/index.php/Pathway:WP692):
+experimental data mapped onto [WP692](https://www.wikipathways.org/pathways/WP692):
 
 <img src="./i/Screenshot_20200322_235815.png" width="400px" />
 
