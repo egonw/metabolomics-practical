@@ -78,7 +78,7 @@ also have entries for compounds with a specific isotope. Of course, with differe
 
 ## Questions
 
-7. what are the ChEBI identifiers for water and heavy water? <button onclick="toggleAnswer('q7')">Answer</button><span id="q7" style="visibility: hidden"> CHEBI:15377 and CHEBI:33813</span>
+7. what are the ChEBI identifiers for water and heavy water? <button onclick="toggleAnswer('q7')">Answer</button><span id="q7" style="visibility: hidden"> CHEBI:15377 and CHEBI:41981</span>
 
 # Spectral databases
 

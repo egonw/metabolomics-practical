@@ -14,7 +14,6 @@
 }
 </script>
 
-
 [MetaboLights](https://www.ebi.ac.uk/metabolights/) is a database
 for metabolomics data hosted at the European Bioinformatics Institute.
 
