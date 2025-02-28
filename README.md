@@ -2,7 +2,7 @@
 
 [toc](./README.md) | [next](databases.md)
 
-Material for the **Metabolomics Practical**, 21 March 2024.
+Material for the **Metabolomics Practical**, 28 Februari 2025.
 
 The online version is available at [https://egonw.github.io/metabolomics-practical/](https://egonw.github.io/metabolomics-practical/) and the source code repository is
 available at [https://github.com/egonw/metabolomics-practical](https://github.com/egonw/metabolomics-practical).
@@ -18,4 +18,4 @@ available at [https://github.com/egonw/metabolomics-practical](https://github.co
 
 [toc](./README.md) | [next](databases.md)
 
-Copyright 2020-2024 (C) Egon Willighagen (Dept of Bioinformatics - [BiGCaT](https://www.bigcat.unimaas.nl/)) - CC-BY Int. 4.0
+Copyright 2020-2025 (C) Egon Willighagen (Dept of Bioinformatics - [BiGCaT](https://www.bigcat.unimaas.nl/)) - CC-BY Int. 4.0
