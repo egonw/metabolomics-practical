@@ -95,4 +95,4 @@ There are many databases that have spectra for small compounds, two of them are:
 
 [toc](./README.md) | [next](identification.md)
 
-Copyright 2020-2023 (C) Egon Willighagen - CC-BY Int. 4.0
+Copyright 2020-2025 (C) Egon Willighagen (Dept of Translational Genomics](https://www.maastrichtuniversity.nl/research/translational-genomics) - CC-BY Int. 4.0
