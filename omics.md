@@ -58,9 +58,10 @@ Open this file in [RStudio Desktop](https://posit.co/download/rstudio-desktop/):
 
 
 ```R
-mtbls88 = read.table(
+mtbls88 <- read.table(
   file = "m_mtbls88_metabolite_profiling_mass_spectrometry_v2_maf.tsv",
-  header=TRUE
+  sep = "\t",
+  header = TRUE
 )
 ```
 
