@@ -24,7 +24,7 @@ can be found in MetaboLights with the identifier
 the section `Biology` the studies are found, with identifiers starting
 with the prefix `MTBLS`.
 
-1. how many human studies found ATP? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> Fourteen, at the time of writing, with MTBLS87 being the oldest identifier.</span>
+1. how many human studies found for ATP? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> when you search via [https://www.ebi.ac.uk/metabolights/search](https://www.ebi.ac.uk/metabolights/search), at the time of writing, it lists 23 studies, with MTBLS87 being the oldest identifier.</span>
 2. in how may other species has this metabolite be found? <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden"> The page lists more than ten other species.</span>
 
 MetaboLights follows the [ISA framework](https://isa-tools.org/),
