@@ -83,4 +83,4 @@ CCCOCC <br />
 
 [prev](./databases.md) | [toc](./README.md) | [next](omics.md)
 
-Copyright 2020-2025 (C) Egon Willighagen (Dept of Translational Genomics](https://www.maastrichtuniversity.nl/research/translational-genomics) - CC-BY Int. 4.0
+Copyright 2020-2025 (C) Egon Willighagen <a href="https://www.maastrichtuniversity.nl/research/translational-genomics">Dept of Translational Genomics</a> - CC-BY Int. 4.0
