@@ -17,7 +17,7 @@
 ## Mass spectrometry
 
 [Mass spectrometry](https://en.wikipedia.org/wiki/Mass_spectrometry) is an analytical
-methods that uses the [mass-to-charge ratio](https://en.wikipedia.org/wiki/Mass_spectrometry)
+methods that uses the [mass-to-charge ratio](https://en.wikipedia.org/wiki/Mass-to-charge_ratio)
 to characterize compounds. During a mass spectral analysis it is common that
 the compound breaks down in smaller fragments, resulting in multiple peaks. The masses
 of the fragments or compound specific. But even then, with just a mass spectrum
