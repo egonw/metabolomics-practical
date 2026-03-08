@@ -2,7 +2,7 @@
 
 [toc](./README.md) | [next](databases.md)
 
-Material for the **Metabolomics Practical**, 28 Februari 2025.
+Material for the **Metabolomics Practical**, 8 March 2026.
 
 The online version is available at [https://egonw.github.io/metabolomics-practical/](https://egonw.github.io/metabolomics-practical/) and the source code repository is
 available at [https://github.com/egonw/metabolomics-practical](https://github.com/egonw/metabolomics-practical).
@@ -27,4 +27,4 @@ You may also prefer to download the [metabolite identifier database](https://bri
 
 [toc](./README.md) | [next](databases.md)
 
-Copyright 2020-2025 (C) Egon Willighagen <a href="https://www.maastrichtuniversity.nl/research/translational-genomics">Dept of Translational Genomics</a> - CC-BY Int. 4.0
+Copyright 2020-2026 (C) Egon Willighagen <a href="https://www.maastrichtuniversity.nl/research/translational-genomics">Dept of Translational Genomics</a> - CC-BY Int. 4.0
