@@ -1,6 +1,6 @@
 # Pathway Analysis
 
-[prev](./omics.md) | [toc](./README.md) | [next](lierature.md)
+[prev](./omics.md) | [toc](./README.md) | [next](literature.md)
 
 <script>
   function toggleAnswer(id) {
@@ -129,6 +129,6 @@ if the pathway drawing has a metabolite that does not specify the stereochemistr
 
 ---
 
-[prev](./omics.md) | [toc](./README.md)  | [next](lierature.md)
+[prev](./omics.md) | [toc](./README.md)  | [next](literature.md)
 
 Copyright 2020-2026 (C) Egon Willighagen <a href="https://www.maastrichtuniversity.nl/research/translational-genomics">Dept of Translational Genomics</a> - CC-BY Int. 4.0
