@@ -31,7 +31,7 @@ The monoisotopic mass is the mass of a compound with all atoms having a single,
 major isotopic mass for each element. For example, the monoisotopic mass of
 hydroxyurea is 76.02728.
 
-2. how many compound in ChEBI have this monoisotopic mass? (use the advanced search functionality) <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden"> Two: CHEBI:38662 and CHEBI:44423</span>
+2. how many compound in ChEBI have this monoisotopic mass? (use the advanced search functionality) <button onclick="toggleAnswer('q2')">Answer</button><span id="q2" style="visibility: hidden"> Two: <a href="https://www.ebi.ac.uk/chebi/CHEBI:38662">CHEBI:38662</a> and <a href="https://www.ebi.ac.uk/chebi/CHEBI:44423">CHEBI:44423</a></span>
 
 You can experiment with the range in the advanced search. Making it slightly larger
 increases the number of search hits. Try searching for the range 76.0 to 76.5.
@@ -44,7 +44,7 @@ chemical formula, we do not know how the atoms are bound to each other. That is,
 do not know what the correct stereoisomer is. In fact, we do not even know what the
 correct constitutional isomer is.
 
-3. how many compound entries does ChEBI return if you search for the chemical formula C₆H₁₄N₂O₂? (use the advanced search functionality) <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> ChEBI lists 30116 entries with this chemical formula (at the time of writing)</span>
+3. how many compound entries does ChEBI return if you search for the chemical formula C₆H₁₄N₂O₂? (use the advanced search functionality) <button onclick="toggleAnswer('q3')">Answer</button><span id="q3" style="visibility: hidden"> ChEBI lists 16 entries with this chemical formula (at the time of writing, via <a href="https://www.ebi.ac.uk/chebi/advancedSearch">advanced search</a>)</span>
 
 ### A chemical structure generator
 
