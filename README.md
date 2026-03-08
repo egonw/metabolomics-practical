@@ -22,6 +22,7 @@ You may also prefer to download the [metabolite identifier database](https://bri
 * [Metabolite Identification](identification.md)
 * [Metabolomics](omics.md)
 * [Pathway Analysis](pathways.md)
+* [Literature](literature.md)
 
 ---
 
