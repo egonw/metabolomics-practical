@@ -44,9 +44,10 @@ The `hist()` command shows a histogram of of the fold changes:
 
 <img src="./i/Screenshot_20200323_000103.png" width="400px" />
 
-We are going to use this data in [PathVisio](https://pathvisio.org/) (which you may need to
-[install first](https://pathvisio.org/downloads))
-and need to export it as a TSV file first. We create a new data matrix, and leave out a few rows:
+We are going to use this data in [PathVisio](https://pathvisio.org/) ([download](https://pathvisio.org/downloads)).
+PathVisio needs Java 8 and both you may need to install first.
+Also, we need to export the data file as a TSV file first. We
+create a new data matrix, and leave out a few rows:
 
 ```R
 logFCdata <- cbind(
@@ -65,7 +66,7 @@ write.table(
 
 Following the same approach for pathway analysis with other omics data, we can use this data
 to find potentially interesting pathways. First, download the
-[metabolite identifier database](https://bridgedb.github.io/data/gene_database/)
+[metabolite identifier database](https://data.bridgedb.org/gene_database/)
 and open that in PathVisio with `Data`, `Select Metabolite Database`.
 
 Then, import the `logfc.tsv` file you created in the previous step into PathVisio
@@ -86,7 +87,7 @@ recognized:
 
 ## Finding pathways with PathVisio
 
-The next step is to download the [human pathways](https://www.wikipathways.org/index.php/Download_Pathways)
+The next step is to download the [human pathways GPML archive](https://www.wikipathways.org/index.php/Download_Pathways)
 and unzip the file locally. Maybe you have them still around from a previous practical. Then downloading
 them again is not needed.
 
