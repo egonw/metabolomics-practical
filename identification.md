@@ -23,7 +23,7 @@ the compound breaks down in smaller fragments, resulting in multiple peaks. The 
 of the fragments or compound specific. But even then, with just a mass spectrum
 it is not easy to identify a compound.
 
-1. why will we not see lysine (C₆H₁₄N₂O₂) in a mass spectrum? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> Because it is not charged. However, we can see its protonated and deprotoned counterparts.</span>
+1. why will we not see lysine (C₆H₁₄N₂O₂) in a mass spectrum? <button onclick="toggleAnswer('q1')">Answer</button><span id="q1" style="visibility: hidden"> Because it is not charged. However, we can <a href="https://cdkdepict.cloud.vhp4safety.nl/depict/bot/svg?smi=NCCCC%5BC%40H%5D(N)C(%3DO)O.NCCCC%5BC%40H%5D(%5BNH3%2B%5D)C(%3DO)O.NCCCC%5BC%40H%5D(N)C(%3DO)%5BO-%5D&w=-1&h=-1&abbr=off&hdisp=S&zoom=1.3&annotate=cip&r=0">see its protonated and deprotoned counterparts</a>.</span>
 
 ### Monoisotopic masses
 
