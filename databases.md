@@ -19,12 +19,14 @@ The key metabolite databases are the following list:
 * [Human Metabolomics Database](http://hmdb.ca) (HMDB): focuses on human metabolites
 * [Chemical Entities of Biological Interest](https://www.ebi.ac.uk/chebi/) (ChEBI): focuses on accurate description of the chemistry
 * [LIPID MAPS](https://lipidmaps.org/): focuses on lipids in any species
-* [LOTUS](https://lotus.naturalproducts.net/): focuses on natural products
+* [LOTUS](https://adafede.github.io/marimo/apps/lotus_wikidata_explorer.html): focuses on natural products
+* [EPA CompTox Chemicals Dashboard](https://comptox.epa.gov/dashboard/): focuses on toxicology
 
 More general databases include the following two, but because also human samples contain non-human metabolites, they are of relevance.
 They both have a chemistry focus but link out to many useful databases:
 
-* [PubChem](https://pubchem.ncbi.nlm.nih.gov/): [119 million](https://pubchem.ncbi.nlm.nih.gov/docs/statistics) chemical structures, by the American [NCBI](https://www.ncbi.nlm.nih.gov/)
+* [PubChem](https://pubchem.ncbi.nlm.nih.gov/): [124 million](https://pubchem.ncbi.nlm.nih.gov/docs/statistics) chemical structures, by the American [NCBI](https://www.ncbi.nlm.nih.gov/)
+* [ChemSpider](https://www.chemspider.com/): [130 million](https://www.chemspider.com/sales) chemical compounsd, by the [Royal Society of Chemistry](https://www.rsc.org/)
 * [Wikidata](https://scholia.toolforge.org/chemical/): 1.4 million structures; a machine-readable sister project of Wikipedia (via Scholia interface)
 * [CAS Common Chemistry](https://commonchemistry.cas.org/): 0.5 million structures collected by the American Chemical Society
 
@@ -34,7 +36,7 @@ are used in pathways analysis, which you will do at the end of this practical.
 
 ## Identifier structure
 
-Different databases use different structure of the identifier. PubChem, ChemSpider use integers. This has the disadvantage that
+Different databases use different structure of the identifier. PubChem and ChemSpider use integers. This has the disadvantage that
 with only the identifier (a number), you do not know what database it belongs too, unless you specify that. The latter can be
 done with [compact uniform resource identifiers](https://bioregistry.io/summary) (CURIEs). The PubChem numeric identifier
 [5288826](https://pubchem.ncbi.nlm.nih.gov/compound/5288826) then becomes the CURIE [pubchem:5288826](https://bioregistry.io/pubchem:5288826).
