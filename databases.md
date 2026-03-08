@@ -27,7 +27,7 @@ They both have a chemistry focus but link out to many useful databases:
 
 * [PubChem](https://pubchem.ncbi.nlm.nih.gov/): [124 million](https://pubchem.ncbi.nlm.nih.gov/docs/statistics) chemical structures, by the American [NCBI](https://www.ncbi.nlm.nih.gov/)
 * [ChemSpider](https://www.chemspider.com/): [130 million](https://www.chemspider.com/sales) chemical compounsd, by the [Royal Society of Chemistry](https://www.rsc.org/)
-* [Wikidata](https://scholia.toolforge.org/chemical/): 1.4 million structures; a machine-readable sister project of Wikipedia (via Scholia interface)
+* [Wikidata](https://qlever.scholia.wiki/chemical/): 1.4 million structures; a machine-readable sister project of Wikipedia (via Scholia interface)
 * [CAS Common Chemistry](https://commonchemistry.cas.org/): 0.5 million structures collected by the American Chemical Society
 
 During this practical you will use another biological database, [WikiPathways](https://www.wikipathways.org/),
@@ -49,7 +49,7 @@ Other databases have a source indication in the identifier itself. For example, 
 What are the database identifiers for ChEBI, HMDB, PubChem, and Wikidata for the following
 compounds:
 
-1. glycine, found as residue in human protein? <button onclick="toggleAnswer('q1')"> Answer</button><span id="q1" style="visibility: hidden"> <a href="https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15428">CHEBI:15428</a>, <a href="https://hmdb.ca/metabolites/HMDB0000123">HMDB0000123</a>, <a href="https://pubchem.ncbi.nlm.nih.gov/compound/750">750</a>, <a href="https://scholia.toolforge.org/chemical/Q620730">Q620730</a></span>
+1. glycine, found as residue in human protein? <button onclick="toggleAnswer('q1')"> Answer</button><span id="q1" style="visibility: hidden"> <a href="https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15428">CHEBI:15428</a>, <a href="https://hmdb.ca/metabolites/HMDB0000123">HMDB0000123</a>, <a href="https://pubchem.ncbi.nlm.nih.gov/compound/750">750</a>, <a href="https://qlever.scholia.wiki/chemical/Q620730">Q620730</a></span>
 2. paracetamol? <button onclick="toggleAnswer('q2')"> Answer</button><span id="q2" style="visibility: hidden"> CHEBI:46195, HMDB0001859, 1983, Q57055</span>
 
 # Stereoisomers
