@@ -49,8 +49,8 @@ Other databases have a source indication in the identifier itself. For example, 
 What are the database identifiers for ChEBI, HMDB, PubChem, and Wikidata for the following
 compounds:
 
-1. glycine, found as residue in human protein? <button onclick="toggleAnswer('q1')"> Answer</button><span id="q1" style="visibility: hidden"> <a href="https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15428">CHEBI:15428</a>, <a href="https://hmdb.ca/metabolites/HMDB0000123">HMDB0000123</a>, <a href="https://pubchem.ncbi.nlm.nih.gov/compound/750">750</a>, <a href="https://qlever.scholia.wiki/chemical/Q620730">Q620730</a></span>
-2. paracetamol? <button onclick="toggleAnswer('q2')"> Answer</button><span id="q2" style="visibility: hidden"> CHEBI:46195, HMDB0001859, 1983, Q57055</span>
+1. glycine, found as residue in human protein? <button onclick="toggleAnswer('q1')"> Answer</button><span id="q1" style="visibility: hidden"> <a href="https://www.ebi.ac.uk/chebi/CHEBI:15428">CHEBI:15428</a>, <a href="https://hmdb.ca/metabolites/HMDB0000123">HMDB0000123</a>, <a href="https://pubchem.ncbi.nlm.nih.gov/compound/750">750</a>, <a href="https://qlever.scholia.wiki/chemical/Q620730">Q620730</a></span>
+2. paracetamol? <button onclick="toggleAnswer('q2')"> Answer</button><span id="q2" style="visibility: hidden"> <a href="https://www.ebi.ac.uk/chebi/CHEBI:46195">CHEBI:46195</a>, <a href="https://hmdb.ca/metabolites/HMDB0001859">HMDB0001859</a>, <a href="https://pubchem.ncbi.nlm.nih.gov/compound/1983">1983</a>, <a href="https://qlever.scholia.wiki/chemical/Q57055">Q57055</a></span>
 
 # Stereoisomers
 
@@ -70,7 +70,7 @@ compound.
 
 ## Questions
 
-6. what are the ChEBI identifiers for acetic acid and acetate? <button onclick="toggleAnswer('q6')">Answer</button><span id="q6" style="visibility: hidden"> CHEBI:15366 and CHEBI:30089</span>
+6. what are the ChEBI identifiers for acetic acid and acetate? <button onclick="toggleAnswer('q6')">Answer</button><span id="q6" style="visibility: hidden"> <a href="https://www.ebi.ac.uk/chebi/CHEBI:15366">CHEBI:15366</a> and <a href="https://www.ebi.ac.uk/chebi/CHEBI:30089">CHEBI:30089</a></span>
 
 # Isotopes
 
@@ -80,7 +80,7 @@ also have entries for compounds with a specific isotope. Of course, with differe
 
 ## Questions
 
-7. what are the ChEBI identifiers for water and heavy water? <button onclick="toggleAnswer('q7')">Answer</button><span id="q7" style="visibility: hidden"> CHEBI:15377 and CHEBI:41981</span>
+7. what are the ChEBI identifiers for water and heavy water? <button onclick="toggleAnswer('q7')">Answer</button><span id="q7" style="visibility: hidden"> <a href="https://www.ebi.ac.uk/chebi/CHEBI:15377">CHEBI:15377</a> and <a href="https://www.ebi.ac.uk/chebi/CHEBI:41981">CHEBI:41981</a></span>
 
 # Spectral databases
 
@@ -91,7 +91,6 @@ There are many databases that have spectra for small compounds, two of them are:
 
 8. how many peaks does the <sup>1</sup>H NMR spectrum of isopropanol have? <button onclick="toggleAnswer('q8')">Answer</button><span id="q8" style="visibility: hidden"> Two. The hydroxyl proton is not visible in polar solvents, so we only see peaks at 4.04 ppm and 1.22 ppm.</span>
 9. at what m/z value does glycine the highest peak? <button onclick="toggleAnswer('q9')">Answer</button><span id="q9" style="visibility: hidden"> That actually depends on the method used. The [M+H]+ peak is around 76, while the [M-H]- peak is around 74. Why do we not measure the [M] peak?</span>
-
 
 ---
 
